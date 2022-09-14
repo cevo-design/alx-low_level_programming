@@ -1,18 +1,14 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints 10 times the alphabet, 
- * in lowercase, followed by a new line
- * @ch: the character to be printed
- * @i: counts up to 10
- * Return: 0 once successful
- */
+* print_alphabet_x10 - prints 10 times the alphabet,
+* in lowercase, followed by a new line
+* Return: 0 once successful
+*/
 void print_alphabet_x10(void)
 {
 	char ch;
-	int i;
-
-	i = 0;
+	int i = 10;
 
 	while (i < 10)
 	{
